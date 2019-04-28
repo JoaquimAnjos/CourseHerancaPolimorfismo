@@ -5,6 +5,8 @@
  */
 package courseherancapolimorfismo;
 
+import entities.Account;
+
 /**
  *
  * @author User
@@ -15,7 +17,8 @@ public class CourseHerancaPolimorfismo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+     
+        Account acc = new Account(1001,"Alex",0.0);
 
     }
     
