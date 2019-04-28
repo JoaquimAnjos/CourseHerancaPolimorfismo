@@ -17,7 +17,7 @@ public class BusinessAccount extends Account{
         super();
     }
 
-    public BusinessAccount(Integer number, String holder, Double balance, Double loanLimit) {
+    public BusinessAccount(Double loanLimit, Integer number, String holder, Double balance) {
         super(number, holder, balance);
         this.loanLimit = loanLimit;
     }
