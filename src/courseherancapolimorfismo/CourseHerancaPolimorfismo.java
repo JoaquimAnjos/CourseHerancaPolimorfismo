@@ -6,6 +6,7 @@
 package courseherancapolimorfismo;
 
 import entities.BusinessAccount;
+import entities.Account;
 
 /**
  *
@@ -19,7 +20,7 @@ public class CourseHerancaPolimorfismo {
     public static void main(String[] args) {
         
         BusinessAccount bcc = new BusinessAccount(1002,"Maria",0.0, 500.0);
-
+        Account acc = new Account(1001,"Alex",0.0);
     }
     
 }
