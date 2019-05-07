@@ -42,5 +42,4 @@ public class BusinessAccount extends Account{
         balance -= 2.0;
     }
     
-    
 }

@@ -9,8 +9,8 @@ package entities;
  *
  * @author User
  */
-public class SavingsAccount extends Account {
-    
+public /*final*/ class SavingsAccount extends Account {//final é uma maneira de evitar que SavingsAccount seja extendido
+                                                       // final no método não permite override
     private Double interestRate;
 
     public SavingsAccount() {
